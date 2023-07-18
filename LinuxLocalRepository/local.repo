@@ -1,0 +1,48 @@
+[LocalRepository-BaseOS]
+name=Rocky Linux 9.0 - BaseOS
+metadata_expire=-1
+gpgcheck=0
+enabled=1
+baseurl=file:///var/www/html/repos/baseos
+
+[LocalRepository-AppStream]
+name=Rocky Linux 9.0 - AppStream
+metadata_expire=-1
+gpgcheck=0
+enabled=1
+baseurl=file:///var/www/html/repos/appstream
+
+[LocalRepository-Extras]
+name=Rocky Linux 9.0 - Extras
+metadata_expire=-1
+gpgcheck=0
+enabled=1
+baseurl=file:///var/www/html/repos/extras
+
+[LocalRepository-PGDG14]
+name=PotsgreSQL 14 - PGDG14
+metadata_expire=-1
+gpgcheck=0
+enabled=1
+baseurl=file:///var/www/html/repos/pgdg14
+
+[LocalRepository-PGDG-COMMON]
+name=PotsgreSQL Common Packages - PGDG-COMMON
+metadata_expire=-1
+gpgcheck=0
+enabled=1
+baseurl=file:///var/www/html/repos/pgdg-common
+
+[LocalRepository-HASHICORP]
+name=Hashicorp Stable - Consul etc.
+metadata_expire=-1
+gpgcheck=0
+enabled=1
+baseurl=file:///var/www/html/repos/hashicorp
+
+[LocalRepository-EPEL]
+name=Extra Packages for Enterprise Linux - EPEL
+metadata_expire=-1
+gpgcheck=0
+enabled=1
+baseurl=file:///var/www/html/repos/epel
